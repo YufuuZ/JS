@@ -1,0 +1,296 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+p a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Global styles */
+body{
+    background-color: #fffffe;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+#main {
+    float: right;
+    width: 72%;
+    margin: 50px;
+}
+#sidebar{
+    background-color: #fffffe;
+    border-right: 3px solid #0f0e17;
+}
+
+/* Header styles */
+#header {
+	padding: 24px;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f0e17;
+    margin-right: -50px;
+    margin-left: -75px;
+    margin-top: -50px;
+}
+
+#header .logo {
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	display: flex;
+    align-items: center;
+    color: #fffffe;
+    padding-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#header strong{
+    padding-right: 5px;
+    color: #ff8906;
+
+}
+
+#header .icons {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+	display: flex;
+}
+
+#header .icons li {
+	display: inline-block;
+	margin-left: 10px;
+    border-radius: 5px;
+    border:1px solid #ff8906;
+    background-color: #ff8906;
+    padding: 0px 9px;
+
+} 
+
+#header .icons li a {
+	color: #fffffe;
+    font-size: 10px;
+}
+
+/* Banner styles */
+#banner {
+	position: relative;
+	padding: 80px  24px;
+	text-align: center;
+	margin-right: -50px;
+    margin-left: -75px;
+    background-color: #0f0e17;
+}
+
+#banner .content{
+	float: left;
+	width: 40%;
+    margin-left: 30px;
+}
+
+#banner h1 {
+	margin-top: -55px;
+    color: #fffffe;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+#banner p {
+	margin-bottom: 32px;
+    color: #a7a9be;
+    text-align: justify;
+}
+
+#banner .button {
+	padding: 10px 15px;
+	border-radius: 5px;
+    background-color: #ff8906;
+    color: #fffffe;
+    display: inline-block;
+}
+#banner img{
+	border-radius: 40px;
+    width: 50% ;
+    margin-right: -50px;
+    margin-top: -50px;
+}
+
+/* Section styles */
+section {
+	padding: 46px 24px;
+}
+
+section h2 {
+	font-size: 32px;
+	margin-bottom: 16px;
+	text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.features {
+	display: flex;
+}
+
+.features article {
+	padding: 10px;
+	float: left;
+}
+
+.features .content {
+	margin-top: 20px;
+    background-color: #0f0e17;
+    padding: 10px 30px;
+}
+
+.features h3 {
+	font-size: 20px;
+	margin-bottom: 35px;
+	text-align: justify;
+	margin-left: 0px;
+    color: #fffffe;
+}
+
+.features p{
+	text-align: justify;
+    color: #a7a9be;
+}
+
+.posts {
+	overflow: auto;
+	margin-left: 25px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+  }
+  
+.posts article {
+	width: 31%;
+	float: left;
+	margin: 10px;
+	text-align: center;
+  }
+  .posts a{
+    color: #fffffe;
+  }
+  .posts .button {
+	text-decoration: none; 
+	display: inline-block; 
+	border-radius: 4px; 
+	padding: 5px 10px; 
+	margin: 20px;
+    background-color: #ff8906;
+  }
+
+
+/* Sidebar styles */
+#sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 20%;
+	height: 100%;
+	z-index: 10002;
+	padding:8px;
+	overflow-y: auto;
+}
+
+#sidebar #query {
+    padding: 15px 20px ;
+    width: 200px;
+	border-radius: 5px;
+    border: 3px solid #0f0e17;
+    margin-top: -20px ;
+}
+
+#sidebar header {
+    margin-top: -40px;
+    text-align: center;
+}
+
+#sidebar h2 {
+	font-size: 24px；
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#sidebar nav ul {
+    margin: 20px;
+    border-radius: 5px;
+    padding-left: 0px;
+
+}
+
+#sidebar nav ul li {
+	list-style: none;
+    border: 3px solid #0f0e17;
+    margin: 5px 0px;
+    border-radius: 5px;
+    background-color: #a7a9be6a;
+    font-weight: bold;
+
+}
+
+#sidebar nav ul li a {
+	display: block;
+	text-decoration: none;
+    text-align: center;
+    padding: 5px 0px ;
+    color: #ff8906;
+}
+
+#sidebar nav ul li a:hover {
+	color: #333;
+}
+#sidebar h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+
+/* Contact styles */
+
+.contact {
+	list-style: none;
+	padding: 0;
+	margin-bottom: -40px;
+}
+
+section p{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+    margin-top: -10px;
+    
+}
+
+.contact li {
+	text-align: center;
+    font-size: smaller;
+}
+.contact a{
+	font-style: italic;
+	color: #ff8906;
+}
+
+/* Footer styles */
+#footer {
+    margin-top: 60px;
+	color: #0f0e17;
+	text-align: center;
+    font-size: smaller;
+}
+#footer a{
+	color: #ff8906;
+	font-style: italic;
+    font-size: smaller;
+}
