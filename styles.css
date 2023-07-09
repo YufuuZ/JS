@@ -1,0 +1,126 @@
+body {
+    background-image: url("大海.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #title {
+    background: linear-gradient(to bottom, #88d8ff, #0077b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0px;
+    padding-top: 40px;
+    font-size: 100px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive;
+
+  }
+  
+  #startButton {
+  display: block;
+  margin: 0px auto;
+  padding-top: 100px;
+  }
+  
+  .instructionsBox {
+    border: 2px solid #00000000;
+    background-color: rgba(0, 0, 0, 0.265);
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  #instructions {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  #text{
+    color: aliceblue;
+  }
+  
+
+  #gameContainer {
+    display: none; /* 初始隐藏游戏容器 */
+    width: 800px;
+    height: 650px;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  #gameStart {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #startButton {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: font-weight 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  }
+
+  #startButton:hover {
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .iceberg {
+    position: absolute;
+  }
+  
+  .penguin {
+    position: absolute;
+  }
+
+  #gameOverDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(254, 52, 16);
+  }
+  
+  .gameOverText {
+    font-size: 100px;
+    font-weight: bold;
+  }
+
+  .playAgainButton {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(245, 245, 245);
+    color: green;
+    border: 3px solid green;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out; /* 添加过渡效果 */
+  }
+  
+  .playAgainButton:hover {
+    transform: scale(1.1); /* 放大按钮 */
+    background-color: green; /* 绿色背景 */
+    color: white; /* 白色字体 */
+  }
+
+  .iceberg {
+    position: absolute;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+ 
+  .iceberg:hover {
+    transform: scale(1.1); /* 放大浮冰图片 */
+  }
+  
