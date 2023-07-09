@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>消失的浮冰</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+        
+    <div id="gameStart">
+        <h1 id="title">
+          <span class="titleLine">消失的</span>
+          <span class="titleLine">浮冰</span>
+        </h1>
+        <button id="startButton">开始游戏</button>
+        <div id="instructionsContainer">
+          <div class="instructionsBox">
+            <p > <span id="instructions">❕提示</span>  <span id="text">：点击选择🧊浮冰，让企鹅🐧动起来吧！不要掉到🌊海里哦！</span> </p>
+          </div>
+        </div>
+      </div>
+      
+    
+    <div id="gameContainer">
+        <img src="浮冰.png" class="iceberg" id="iceberg1" style="width: 140px; height: 200px; top: 30px; left: 300px;">
+        <img src="浮冰.png" class="iceberg" id="iceberg2" style="width: 100px; height: 200px; top: 100px; left: 950px;">
+        <img src="浮冰.png" class="iceberg" id="iceberg3" style="width: 150px; height: 200px; top: 300px; left: -200px;">
+        <img src="浮冰.png" class="iceberg" id="iceberg4" style="width: 180px; height: 170px; top: 200px; left: 460px;">
+        <img src="浮冰.png" class="iceberg" style="width: 240px; height: 200px; top: 500px; left: -40px;">
+        <img src="浮冰.png" class="iceberg" style="width: 180px; height: 100px; top: 50px; left: 30px;">
+        <img src="浮冰.png" class="iceberg" style="width: 230px; height: 170px; top: 50px; left: -300px;">
+        <img src="浮冰.png" class="iceberg" style="width: 180px; height: 180px; top: 200px; left: 0px;">
+        <img src="浮冰.png" class="iceberg" style="width: 255px; height: 195px; top: 500px; left: 800px;">
+        <img src="浮冰.png" class="iceberg" style="width: 190px; height: 145px; top: 250px; left: 700px;">
+        <img src="浮冰.png" class="iceberg" style="width: 205px; height: 235px; top: 450px; left: 500px;">
+        <img src="浮冰.png" class="iceberg" style="width: 230px; height: 130px; top: 50px; left: 600px;">
+        <img src="浮冰.png" class="iceberg" style="width: 200px; height: 150px; top: 350px; left: 200px;">
+        <img src="企鹅.png" class="penguin" id="penguin" style="width: 100px; height: 100px; top: 30px; left: 300px;">
+    </div>
+
+    <audio id="oceanAudio" loop>
+        <source src="海浪.mp3" type="audio/mpeg">
+      </audio>
+      <audio id="dropAudio">
+        <source src="水滴.mp3" type="audio/mpeg">
+      </audio>
+      <audio id="fallAudio">
+        <source src="落水.mp3" type="audio/mpeg">
+      </audio>
+      <audio id="backgroundAudio">
+        <source src="背景音.mp3" type="audio/mpeg">
+      </audio>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
